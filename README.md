@@ -16,12 +16,14 @@ class Profile(github):
 class PC(build):
     cpu = "Ryzen 5 5600G"
     ram = "16GB 3600Mhz"
-    os = "EndeavourOS"
     nvme_m2 = "512 GB"
     sata_hdd = "2 TB"
+    os = "EndeavourOS"
     desktop_environment = "Gnome Shell"
-    shell = "fish"
-    terminal = "tilix"
+    shell = "fish + ohmyfish"
+    terminal = "Tilix"
 ```
 ### Networks
-* !["https://audeldiaz.work"](Blog)
+* Blog: https://audeldiaz.work
+* LinkedIn: https://www.linkedin.com/in/audeldiaz/
+* Instagram: https://instagram.com/audeldiaz.photo
