@@ -1,16 +1,27 @@
-### Hi there 👋
+## Hi!, I'm Audel.
 
-<!--
-**AudelDiaz/AudelDiaz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```python
+import github
+import build
 
-Here are some ideas to get you started:
+class Profile(github):
+    name = "Audel Diaz"
+    country = "Colombia"
+    profession = "Software Engineer"
+    occupation = "DevOps Tech Lead"
+    technologies = ['Python', 'Docker', 'Linux', 'K8s', 'Cloud', 'Jenkins', 'Bash']
+    frameworks = ['Django', 'FastAPI', 'Flask']
+    clouds = ['GCP', 'AWS']
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class PC(build):
+    cpu = "Ryzen 5 5600G"
+    ram = "16GB 3600Mhz"
+    os = "EndeavourOS"
+    nvme_m2 = "512 GB"
+    sata_hdd = "2 TB"
+    desktop_environment = "Gnome Shell"
+    shell = "fish"
+    terminal = "tilix"
+```
+### Networks
+* !["https://audeldiaz.work"](Blog)
