@@ -8,13 +8,13 @@ class Profile(github):
     name = "Audel Diaz"
     country = "Colombia"
     profession = "Software Engineer"
-    occupation = "DevOps Tech Lead"
+    occupation = ["Python Developer", "DevOps Engineer"]
     technologies = ['Python', 'Docker', 'Linux', 'K8s', 'Cloud', 'Jenkins', 'Bash']
     frameworks = ['Django', 'FastAPI', 'Flask']
     clouds = ['GCP', 'AWS']
 
 class PC(build):
-    cpu = "Ryzen 5 5600G"
+    cpu = "Ryzen 7 5700X"
     ram = "16GB 3600Mhz"
     gpu = "RX 6500 XT"
     nvme_m2 = "512 GB"
